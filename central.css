@@ -1,0 +1,119 @@
+
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+      .q2wrapper{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      height: 100vh;
+      grid-gap: 10px;
+      width: 100vw;
+      }
+    .q3wrapper{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      height: 100vh;
+      grid-gap: 10px;
+      width: 100vw;
+       }
+      .q4wrapper {
+       display: grid;
+       grid-template-rows: repeat(3, 1fr);
+       grid-template-columns: repeat(2, 1fr);
+       grid-gap: 10px;
+       width: 100vw;
+       height: 100vh;
+      }
+      .q5wrapper {
+       display: grid;
+       grid-template-rows: repeat(3, 1fr);
+       grid-template-columns: repeat(2, 1fr);
+       grid-gap: 10px;
+       width: 100vw;
+       height: 100vh;
+      }
+      .q3wrapper1 {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        width: 60vw;
+        height: 100vh;
+      }
+      .q3wrapper2 {
+      display: grid;
+      width: 40vw;
+      height: 100vh;
+      }
+      .q4wrapper1{
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        width: 60vw;
+        height: 100vh;
+      }
+    .q4wrapper2 {
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    width: 40vw;
+    height: 100vh;
+      }
+      .q5wrapper1{
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        width: 60vw;
+        height: 100vh;
+      }
+      .q5wrapper2 {
+      display: grid;
+      grid-template-rows: repeat(2,1fr);
+      width: 40vw;
+      height: 100vh;
+        }
+      .column {
+        border-radius: 2px;
+        border-style: solid;
+        border-color: azure;
+        background-color: aquamarine;
+      }
+      .column1 {
+        border-radius: 2px;
+        border-style: solid;
+        border-color: azure;
+        background-color: aquamarine;
+        grid-row: 1/2;
+        grid-column: 1/3;
+      }
+  
+      .column_a{
+    
+        border-radius: 2px;
+        border-style: solid;
+        border-color: azure;
+        background-color: aquamarine;
+        grid-row: auto/ span 1;
+        grid-column: auto / span 2;
+  
+      }
+      .column_b {
+    
+        border-radius: 2px;
+        border-style: solid;
+        border-color: azure;
+        background-color: aquamarine;
+        grid-row: auto/ span 1;
+        grid-column: auto / span 1;
+      }
+  
+  
+  @media (max-width: 768px) {
+    /* For mobile phones: */
+   .column{
+      width: 100vw;
+    }
+}
