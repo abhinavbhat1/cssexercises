@@ -61,7 +61,6 @@
     }
     .q5wrapper1{
       grid-template-columns: repeat(1, 1fr);
-      grid-gap: auto;
       width: 100vw;
       height: 60vh;
     }
