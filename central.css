@@ -175,4 +175,5 @@
     .column_b {
       grid-row: auto/ span 1;
       grid-column: auto/ span 1;
+    }
 }
